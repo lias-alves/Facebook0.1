@@ -28,18 +28,9 @@ article{
     display: inline-block;
     min-width: 100px;
     padding: 10px;
-    border: 1px solid black;
     margin: auto;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    color: var(--cor2);
 }
 
 .bloco-1 > h1{
@@ -87,7 +78,17 @@ input{
     margin-bottom: 20px;
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.219);
+    border: 0px;
     font-size: 20px;
+}
+
+.search{
+     border: 2px solid rgba(0, 0, 0, 0.219);
+}
+
+.search:focus{
+    outline: 0;
+    border-color: #1877F2;
 }
 
 .buton-1{
@@ -103,6 +104,14 @@ input{
 
 .buton-1:hover{
     background-color: #155fc0;
+}
+
+.esqueseu{
+    text-decoration: none;
+}
+.esqueseu:hover{
+    text-decoration: underline;
+    color: #1877F2;
 }
 
 .buton-2{
@@ -127,12 +136,16 @@ aside{
     margin: auto;
 }
 
-aside a{
+.pagina{
+    padding: 10px;
+}
+
+.pagina a{
     font-weight: bold;
     color: var(--cor1);
 }
 
-aside a:hover{
+.pagina a:hover{
     text-decoration: underline;
     color: var(--cor1);
 }
