@@ -6,7 +6,7 @@
 :root{
     --cor1: #0084ff;
     --cor2: #ffffff;
-    --cor3: #ffffff31;
+    --cor3: #ffffff5e;
     --cor4: #000000;
     --cor5: rgba(0, 0, 0, 0.055);
     --cor6: rgba(0, 0, 0, 0.315);
@@ -15,13 +15,12 @@
 section{
     display: flex;
     padding-top: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.171);
 }
 
 nav{
     margin-left: 5px;
     margin-right: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.575);
 }
 
 nav div{
@@ -39,15 +38,24 @@ i{
     padding-top: 3px;
 }
 
-.pequisa-f{
-   
-}
-
 .esquedo{
-    width: 80%;
+    width: 40%;
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.esquedo input{
+    width: 200px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: var(--cor5);
+}
+
+.esquedo input:focus{
+    outline: 0;
+    border: 0px;
 }
 
 .fac-icoo{
@@ -57,32 +65,41 @@ i{
 }
 
 .lup-icoo{
-    margin-top: 0px;
+   display: none;
 }
 
 .centro{
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .cet-ico{
     font-size: 30px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 20px;
+    margin: auto;
     border-radius: 4px 4px 0px 0px;
+    background-color: var(--cor2);
 }
 
-.cet-ico i{
-    margin: auto;
+.cet-ico:hover{
+    background-color: var(--cor5);
+}
+
+.cet-icoo-click:visited{
+    color: var(--cor1);
 }
 
 .direito{
-    width: 100%;
+    width: 80%;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.direito div:hover{
+    background-color: var(--cor6);
 }
 
 .mais-icoo{
@@ -108,4 +125,8 @@ i{
     .pequisa-f{
         display: none;
     }
+
+    .lup-icoo{
+        display: inline-block;
+     }
 }
