@@ -14,90 +14,98 @@
 
 section{
     display: flex;
-    position: relative;
-    padding-top: 10px;
-    background-color: var(--cor2);
-    height: 100%;
+    padding-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
 }
 
-section div{
-    display: inline;
-    width: 50px;
-    height: 50px;
-    border: 1px solid rebeccapurple;
-    background-color: aquamarine;
+nav{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.575);
 }
 
-nav{
-    border: 1px solid rgba(0, 0, 0, 0.575);
+nav div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--cor5);
+}
 
+i{
+    padding-top: 3px;
 }
 
 .pequisa-f{
-    display: none;
+   
 }
 
 .esquedo{
     width: 80%;
     text-align: left;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.fac-ii{
-    padding: 0px;
-    margin-top: 0px;
+.fac-icoo{
+    padding-left: 5px;
+    font-size: 50px;
     color: var(--cor1);
-    font-size: 55px;
 }
 
-.lup-ii{
-    margin-top: 1px;
+.lup-icoo{
+    margin-top: 0px;
 }
 
 .centro{
-    width: 100%
+    width: 100%;
+    text-align: center;
+    
 }
 
-.cent-iii{
-    padding-left: 19px;
-    padding-right: 15px;
+.cet-ico{
+    font-size: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
     border-radius: 4px 4px 0px 0px;
-    background-color: var(--cor2);
+}
 
+.cet-ico i{
+    margin: auto;
 }
 
 .direito{
     width: 100%;
     text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-i{
-    margin-top: 10px;
-    margin-left: 3px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 50px; 
-    background-color: var(--cor5);
-}
-
-i:hover{
-    background-color: var(--cor6);
-}
-.some-ii{
+.mais-icoo{
     display: none;
 }
+
 
 @media(max-width: 770px ){
     .centro{
         display: none;
     }
 
-    #some-i{
+    .some-icoo{
         display: none;
     }
 
-    .some-ii{
-        display: inline;
+    .mais-icoo{
+        display: inline-block;
+    }
+}
+
+@media(max-width: 1000px){
+    .pequisa-f{
+        display: none;
     }
 }
