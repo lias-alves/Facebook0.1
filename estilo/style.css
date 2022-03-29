@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    margin-left: 30px;
+}
