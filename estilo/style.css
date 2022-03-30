@@ -12,7 +12,7 @@
     --cor6: rgba(0, 0, 0, 0.315);
 }
 
-section{
+header{
     display: flex;
     padding-top: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.171);
@@ -105,6 +105,29 @@ i{
 .mais-icoo{
     display: none;
 }
+
+main{
+    background-color: var(--cor5);
+}
+
+section{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    left: 62%;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
+.coluna-001{
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 20;
+    left: 5;
+    overflow-y: scroll;
+}
+
 
 
 @media(max-width: 770px ){
