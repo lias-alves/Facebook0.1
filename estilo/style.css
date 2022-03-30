@@ -13,14 +13,21 @@
 }
 
 header{
+    
+}
+
+.naver-bar{
     display: flex;
     padding-top: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.171);
+    position: relative;
 }
 
 nav{
     margin-left: 5px;
     margin-right: 5px;
+    position: sticky;
+
 }
 
 nav div{
@@ -107,27 +114,44 @@ i{
 }
 
 main{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
+   
+    height: 100%;
 }
 
 section{
+    background-color: #0084ff;
     display: inline-block;
     width: 100px;
-    height: 100px;
-    left: 62%;
+    height: 100%;
     border: 2px solid black;
     margin-left: 30px;
 }
 
 .coluna-001{
-    height: 100vh;
-    width: 200px;
-    position: fixed;
+    
+    position: absolute;
     top: 20;
-    left: 5;
+    left: 1%;
+    
+}
+
+.coluna-esquedo-1{
+    height: 90vh;
     overflow-y: scroll;
 }
 
+.coluna-002{
+    width: 100px;
+  margin-left: 35%;
+}
+
+.coluna-003{
+    
+    position: absolute;
+    top: 20;
+    left: 65%;
+}
 
 
 @media(max-width: 770px ){
