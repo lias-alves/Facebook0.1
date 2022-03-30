@@ -12,8 +12,13 @@
     --cor6: rgba(0, 0, 0, 0.315);
 }
 
-header{
-    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: var(--cor2);
+    text-decoration: none;
 }
 
 .naver-bar{
@@ -27,7 +32,6 @@ nav{
     margin-left: 5px;
     margin-right: 5px;
     position: sticky;
-
 }
 
 nav div{
@@ -101,6 +105,7 @@ i{
 .direito{
     width: 80%;
     text-align: right;
+    margin-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -128,7 +133,7 @@ main{
 }
 
 section{
-    background-color: #0084ff;
+    background-color: #ffee00;
     display: inline-block;
     width: 20vw;
     height: 100%;
@@ -138,8 +143,36 @@ section{
 .coluna-001{
     position: absolute;
     top: 20;
-    left: 1%;
-    
+    left: -1%;
+}
+
+.coluna1-fusoes{
+    display: inline-flex;
+    width: 88%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.coluna1-fusoes:hover{
+    background-color: var(--cor6);
+}
+
+.coluna1-fusoes div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+}
+
+.coluna1-fusoes > div > i{
+    padding: 5px;
+    font-size: 27px;
+    color: var(--cor1);
+}
+
+.coluna1-fusoes span{
+    padding: 10px 5px 0px 5px;
 }
 
 .coluna-esquedo-1{
@@ -176,7 +209,8 @@ section{
     }
 
     .coluna-002{
-        width: auto;
+        width: 98vw;
+        margin-top: 4%;
         margin-left: 1%;
         margin-right: 1%;
     }
