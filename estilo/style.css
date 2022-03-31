@@ -14,10 +14,11 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor3);
 }
 
 a{
-    color: var(--cor2);
+    color: var(--cor4);
     text-decoration: none;
 }
 
@@ -140,8 +141,15 @@ section{
     margin-left: 30px;
 }
 
+.coluna-esquedo-1{
+    height: 70vh;
+    overflow-y: scroll;
+    background-color: var(--cor2);
+}
+
 .coluna-001{
     position: absolute;
+    height: 70vh;
     top: 20;
     left: -1%;
 }
@@ -149,9 +157,11 @@ section{
 .coluna1-fusoes{
     display: inline-flex;
     width: 88%;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 10px;
-    border: 2px solid black;
+    font-size: 15px;
 }
 
 .coluna1-fusoes:hover{
@@ -167,17 +177,12 @@ section{
 
 .coluna1-fusoes > div > i{
     padding: 5px;
-    font-size: 27px;
+    font-size: 20px;
     color: var(--cor1);
 }
 
 .coluna1-fusoes span{
-    padding: 10px 5px 0px 5px;
-}
-
-.coluna-esquedo-1{
-    height: 90vh;
-    overflow-y: scroll;
+    padding: 7px 5px 0px 0px;
 }
 
 .coluna-002{
