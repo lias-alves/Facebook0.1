@@ -188,10 +188,32 @@ section{
 }
 
 .coluna-003{
-    
+    height: 70%;
     position: absolute;
     top: 20;
     left: 75%;
+}
+
+.coluna3-contato{
+    display: inline-flex;
+    width: 39vw;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.coluna3-contato div{
+    display: inline-flex;
+    width: 20%;
+    text-align: right;
+}
+
+.co003-icoo{
+    padding-left: 8%;
+}
+
+.coluna3-contato p{
+    width: 30px;
+    font-size: 17px;
 }
 
 
