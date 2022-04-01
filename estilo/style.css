@@ -105,10 +105,6 @@ i{
     background-color: var(--cor5);
 }
 
-.cet-icoo-click:visited{
-    color: var(--cor1);
-}
-
 .direito{
     width: 80%;
     text-align: right;
