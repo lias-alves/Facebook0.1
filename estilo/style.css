@@ -210,7 +210,7 @@ section{
 }
 
 .conteine-story:hover{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
 .p-story{
