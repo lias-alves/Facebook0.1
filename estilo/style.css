@@ -202,7 +202,7 @@ section{
 }
 
 .coluna-002:hover{
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .coluna-003{
@@ -210,18 +210,28 @@ section{
     position: absolute;
     top: 20;
     left: 75%;
+    overflow-y: hidden;
+}
+
+.coluna-003:hover{
+    overflow-y: auto;
 }
 
 .coluna3-contato{
     display: inline-flex;
-    width: 39vw;
+    width: 17vw;
     padding: 10px;
-    border: 1px solid black;
 }
 
 .coluna3-contato div{
     display: inline-flex;
-    width: 20%;
+    width: 100%;
+    text-align: right;
+}
+
+.coluna3-contato span{
+    display: inline-flex;
+    width: 100%;
     text-align: right;
 }
 
@@ -229,27 +239,39 @@ section{
     padding-left: 8%;
 }
 
-.coluna3-contato p{
-    width: 30px;
+.coluna3-contato a{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
     font-size: 17px;
 }
 
+.coluna3-contato a:hover{
+    background-color: var(--cor6);
+}
+
+.coluna3-contato p{
+    padding: 4px 7px 0px 0px;
+}
+
 .co3-cperfil{
-    border: 1px solid black;
+    display: inline-flex;
+    width: 17vw;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
-.c-perfil{
-    display: inline-block;
-    border: 1px solid black;
+.co3-cperfil:hover{
+    background-color: var(--cor6);
 }
 
-.c-nome{
-    w
+.co3-cperfil > p{
+    margin: 13px 0px 0px 15px;
 }
 
-.c-nome p{
-    margin: 5px 5px 5px 5px;
-}
+
 @media(max-width: 770px ){
     .centro{
         display: none;
