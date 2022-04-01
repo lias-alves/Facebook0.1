@@ -22,6 +22,12 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .naver-bar{
     display: flex;
     padding-top: 5px;
@@ -143,8 +149,12 @@ section{
 
 .coluna-esquedo-1{
     height: 70vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
     background-color: var(--cor2);
+}
+
+.coluna-esquedo-1:hover{
+    overflow: auto;
 }
 
 .coluna-001{
@@ -171,8 +181,7 @@ section{
 .coluna1-fusoes div{
     width: 45px;
     height: 45px;
-    border-radius: 50%;
-   
+    border-radius: 50%; 
 }
 
 .coluna1-fusoes > div > i{
@@ -189,7 +198,11 @@ section{
     height: 100%;
     width: 46vw;
     margin-left: 27%;
-    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.coluna-002:hover{
+    overflow: scroll;
 }
 
 .coluna-003{
@@ -221,7 +234,22 @@ section{
     font-size: 17px;
 }
 
+.co3-cperfil{
+    border: 1px solid black;
+}
 
+.c-perfil{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.c-nome{
+    w
+}
+
+.c-nome p{
+    margin: 5px 5px 5px 5px;
+}
 @media(max-width: 770px ){
     .centro{
         display: none;
