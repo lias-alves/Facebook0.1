@@ -10,7 +10,7 @@
     --cor4: #000000;
     --cor5: rgba(0, 0, 0, 0.055);
     --cor6: rgba(0, 0, 0, 0.315);
-    --cor7: #ececec;
+    --cor7: #f7f7f7;
 }
 
 body{
@@ -204,7 +204,6 @@ section{
 
 .conteine-story{
     display: flex;
-    background-color: rgb(255, 203, 134);
     padding: 5px;
     overflow-x: hidden;
 }
@@ -233,7 +232,7 @@ section{
 }
 
 .p-story i{
-    border: 4px solid rgb(226, 226, 226);
+    border: 4px solid var(--cor7);
     padding: 12px;
     border-radius: 50%;
     background-color: var(--cor1);
@@ -302,6 +301,50 @@ section{
     padding-left: 40px;
     padding-right: 30px;
     margin: 119px 2px 2px 3px;
+}
+
+.conteiner-fusoes-002{
+    border: 1px solid black;
+    margin: 15px 20px 15px 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--cor7);
+}
+
+.icoo-001{
+    color: red;
+}
+
+.icoo-002{
+    color: rgb(72, 255, 0);
+}
+
+.icoo-003{
+    color: rgb(255, 166, 0);
+}
+
+.conteiner-fusoes-002 aside{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.conteiner-fusoes-002 article{
+    display: flex;
+    padding: 10px;
+}
+
+.conteiner-fusoes-002 a{
+    display: flex;
+    margin: auto;
+}
+
+.conteiner-fusoes-002 i{
+    font-size: 28px;
+}
+
+.conteiner-fusoes-002 p{
+    margin-top: 10px;
+    padding-left: 7px;
 }
 
 .coluna-003{
@@ -391,6 +434,7 @@ section{
         margin-left: 1%;
         margin-right: 1%;
     }
+
 }
 
 @media(max-width: 1000px){
@@ -406,6 +450,10 @@ section{
         display: none;
     } 
     .coluna-003{
+        display: none;
+    }
+
+    .con-fus-a-some{
         display: none;
     }
 }
