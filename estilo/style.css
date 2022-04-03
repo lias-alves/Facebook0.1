@@ -11,6 +11,12 @@
     --cor5: rgba(0, 0, 0, 0.055);
     --cor6: rgba(0, 0, 0, 0.315);
     --cor7: #f7f7f7;
+
+    --icoo1: rgb(236, 0, 0);
+    --icoo2: rgb(72, 255, 0);
+    --icoo3: rgb(255, 166, 0);
+    --icoo4: ;
+    --icoo5: ;
 }
 
 body{
@@ -27,6 +33,10 @@ a{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.img-postagem{
+    width: 100%;
 }
 
 .naver-bar{
@@ -304,7 +314,6 @@ section{
 }
 
 .conteiner-fusoes-002{
-    border: 1px solid black;
     margin: 15px 20px 15px 20px;
     padding: 15px;
     border-radius: 10px;
@@ -313,15 +322,15 @@ section{
 }
 
 .icoo-001{
-    color: red;
+    color: var(--icoo1);
 }
 
 .icoo-002{
-    color: rgb(72, 255, 0);
+    color: var(--icoo2);
 }
 
 .icoo-003{
-    color: rgb(255, 166, 0);
+    color: var(--icoo3);
 }
 
 .conteiner-fusoes-002 aside{
@@ -362,6 +371,62 @@ section{
 .conteiner-fusoes-002 p{
     margin-top: 10px;
     padding-left: 7px;
+}
+
+.conteiner-postagem-002{
+    border: 1px solid black;
+    background-color: var(--cor7);
+    border-radius: 10px;
+    margin: 25px 20px;
+}
+
+.postagem-perfil-002{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 15px;
+}
+
+.postagem-perfil-002 img{
+    width: 94px;
+    height: 44px;
+    outline: 4px solid var(--cor1);
+}
+
+ aside img{
+    border: 1px solid black;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.postagem-perfil-002 h1{
+    width: 100%;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.postagem-perfil-002 i{
+    width: 100%;
+    font-size: 23px;
+    margin-top: 7px;
+    text-align: right;
+}
+
+.postagem-custida-002{
+    display: flex;
+    padding: 10px;
+}
+
+.emoji-1{
+    width: 30px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+.postagem-custida-002 .p-1{
+    width: 100%;
+    height: 15px;
+    border: 1px solid black;
 }
 
 .coluna-003{
