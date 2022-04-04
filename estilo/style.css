@@ -204,6 +204,7 @@ section{
     height: 100%;
     width: 46vw;
     margin-left: 27%;
+    margin-bottom: 30%;
     overflow: hidden;
     background-color: #ffee002c;
 }
@@ -423,7 +424,7 @@ section{
     border: 1px solid black;
 }
 
-.postagem-custida-002 .p-1{
+.p-1{
     width: 100%;
     height: 15px;
     border: 1px solid black;
