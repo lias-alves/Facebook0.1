@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #E09363;
+    --cor02: #4C8D96;
+    --cor03: #00000050;
+    --cor04: #ffffff;
+    --cor05: rgba(0, 0, 0, 0.356);
+    --cor06: ;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: var(--cor02);
+}
+
+.conteiner-plicipal{
+    width: 100%;
+    height: 85vh;
+    margin: 0px;
+    background-image: radial-gradient(to right, var(--cor01));
+    border: 1px solid black;
+}
+
+.img-fundo{
+    max-width: 860px;
+    height: 23vw;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    background: black url(../img-p/img-story/7.jpg) center no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 850px){
+    .img-fundo{
+        height: 220px;
+        margin-right: 8px;
+    }
+}
