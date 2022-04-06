@@ -282,6 +282,7 @@ section{
 .conteiner-fusoes-002 a{
     display: flex;
     margin: auto;
+    margin: 0px;
 }
 
 .conteiner-fusoes-002 i{
