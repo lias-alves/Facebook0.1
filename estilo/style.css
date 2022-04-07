@@ -307,10 +307,11 @@ section{
     margin: 10px 15px;
 }
 
-.postagem-perfil-002 img{
-    width: 94px;
+.postagem-perfil-002 .img-perfil{
+    width: 100px;
     height: 44px;
-    outline: 4px solid var(--cor1);
+    border-radius: 50%;
+    border: 4px solid var(--cor1);
 }
 
  aside img{
@@ -486,17 +487,6 @@ label p{
 
 
 @media(max-width: 816px ){
-    .centro{
-        display: none;
-    }
-
-    .some-icoo{
-        display: none;
-    }
-
-    .mais-icoo{
-        display: inline-block;
-    }
 
     .coluna-002{
         width: 98vw;
@@ -505,16 +495,20 @@ label p{
         margin-right: 1%;
     }
 
+    .con-fus002-inpu {
+        width: 170px;
+        font-size: 2.5vw;
+    }
+
+    .linha001{
+        display: inline-block;
+        width: 87%;
+    }
+
 }
 
 @media(max-width: 1000px){
-    .pequisa-f{
-        display: none;
-    }
 
-    .lup-icoo{
-        display: inline-block;
-     }
 
     .coluna-001{
         display: none;
