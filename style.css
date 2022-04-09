@@ -97,6 +97,7 @@ input{
     font-size: 25px;
     border-radius: 5px;
     border: 0px;
+    cursor: pointer;
     color: var(--cor4);
     background-color: var(--cor2);
     font-weight: bolder;
@@ -124,6 +125,7 @@ input{
     color: var(--cor4);
     font-weight: bold;
     margin-top: 20px;
+    cursor: pointer;
     margin-bottom: 20px;
 }
 
@@ -143,6 +145,7 @@ aside{
 .pagina a{
     font-weight: bold;
     color: var(--cor1);
+    cursor: pointer;
 }
 
 .pagina a:hover{
