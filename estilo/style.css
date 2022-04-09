@@ -274,10 +274,19 @@ section{
     background-color: var(--cor6);
 }
 
-.conteiner-fusoes-002 article{
+.conteiner-fusoes-002 .a-perfil{
+    margin: 0px;
+}
+
+.conteiner-fusoes-002 .fusoes-baixo{
     display: flex;
     padding: 10px;
 }
+
+.conteiner-fusoes-002 .fusoes-baixo a{
+    margin: auto;
+}
+
 
 .conteiner-fusoes-002 a{
     display: flex;
