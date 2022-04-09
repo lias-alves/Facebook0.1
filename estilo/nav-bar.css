@@ -90,8 +90,10 @@ i{
     
 }
 
-.cet-ico:hover{
+.cet-ico:hover,
+.activo{
     background-color: var(--cor5);
+    color: var(--cor1);
 }
 
 .direito{
